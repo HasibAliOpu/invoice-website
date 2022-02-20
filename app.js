@@ -24,7 +24,7 @@ document.getElementById('add-details-btn').addEventListener('click',function(){
     infoTable.appendChild(tr);
 
     const totalPrice = parseInt(itemPrice.value) * parseInt(itemQuantity.value);
-    console.log(td3.innerText);
+     
 
     th.innerText = itemName.value;
     td1.innerText = itemPrice.value;
